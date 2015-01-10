@@ -1,0 +1,4 @@
+[Design]
+
+min-public-methods=0
+disable=I0011, W0232, C1001
