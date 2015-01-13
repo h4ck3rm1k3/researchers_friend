@@ -63,7 +63,7 @@ class Assertion(models.Model):
     Relationships:
         Each ASSERTION has data about zero to one PLACE.
         Each ASSERTION was written by one RESEARCHER.
-        Each ASSSERTION is about two subjects, and each subject is one
+        Each ASSERTION is about two subjects, and each subject is one
             of the following:  PERSONA, EVENT, CHARACTERISTIC, or GROUP.
         Some ASSERTIONs are related to either GROUP-TYPE-ROLE or
             EVENT-TYPE-ROLE (through the Value attribute).
@@ -169,7 +169,7 @@ class AssertionAssertion(models.Model):
             serves as the output.
         sequence_number -- A value that keeps a series of input and
             output ASSERTIONs in order, so that for example, 4 lower
-            level ASSSERTIONs can be brought together into a higher
+            level ASSERTIONs can be brought together into a higher
             level ASSERTION with the order of the low level ASSERTIONs
             preserved.
     """
